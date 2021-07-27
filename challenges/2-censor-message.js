@@ -1,3 +1,11 @@
+/**
+ * Given a full message and a list of words, returns a single string that represents a 'censored' version of the original message: all words from the list must be scrubbed out and replaced with five asterisks (*****).
+
+ * @param {string} message 
+ * @param {string[]} banList 
+ * @returns {string} 'scrubbedMessage' with words in the 'banList' replaced by '****'
+ */
+
 function censorMessage(message, banList) {
     let rawWords = message.split(' ');
 
