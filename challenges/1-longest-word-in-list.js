@@ -1,3 +1,9 @@
+/**
+ * Given a list of strings, returns the string which has the greatest character count (including duplicates).
+ * @param {string} words 
+ * @returns {string} longest word in the string
+ */
+
 function longestInList(words) {
     let longest = words[0];
     for (let word of words) {
