@@ -1,17 +1,3 @@
-// Write a function that, given two numbers, returns a boolean representing whether or not the two numbers are equal.
-
-// You may assume that the numbers are always integers (i.e. whole numbers).
-
-// function:
-// =========
-// name: isEqual
-
-// parameter a: number
-
-// parameter b: number
-
-// return: boolean\
-
 /**
  * Given two numbers, returns a boolean representing whether or not the two numbers are equal.
  * @param {number} a 
